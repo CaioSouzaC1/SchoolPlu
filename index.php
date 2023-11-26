@@ -46,6 +46,7 @@ if (!class_exists('SCHP')) {
             $this->include("inc/removing.php");
             $this->include("inc/enqueue.php");
             $this->include("inc/roles.php");
+            $this->include("inc/custom-post-type.php");
         }
 
         private function include($filename)

@@ -72,3 +72,9 @@ strong, b {
     line-height: 2rem;
     
 }
+
+a > div.wp-menu-image.dashicons-before > img {
+    width: 1.5rem;
+    padding-top: 4.5px !important;
+    opacity: 1 !important;
+}

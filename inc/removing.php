@@ -3,7 +3,7 @@
 class SCHP_REMOVER
 {
 
-    public $pages_to_remove = ['edit.php', 'edit-comments.php', 'edit.php?post_type=page', 'themes.php', 'tools.php'];
+    public $pages_to_remove = ['edit-comments.php', 'edit.php?post_type=page', 'themes.php', 'tools.php'];
     public $roles_to_remove = ['subscriber', 'contributor', 'author', 'editor'];
 
     public function __construct()
